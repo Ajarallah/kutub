@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# kutub runtime data — never commit, the session file grants account access
+.kutub/
+*.session
+*.session-journal
+books.db
+books.db-*
+config.json
+
+# Downloaded books
+*.epub
+*.mobi
+*.azw3
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
