@@ -1,0 +1,4 @@
+telethon>=1.34
+
+# Optional — required only for `kutub get --kindle`
+# stkclient>=0.1.1
